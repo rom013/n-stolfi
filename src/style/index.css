@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply bg-zinc-900 min-h-screen bg-fixed
+}
+
+p{
+  @apply text-gray-300 leading-relaxed my-2
+}
+
+.title{
+  @apply text-white text-4xl my-8 font-bold border-l-2 border-violet-600 pl-4
+}
+
+.btn{
+  @apply py-2 px-6 bg-emerald-500 flex justify-center rounded-lg max-w-xs w-full mx-auto text-white text-base
+}
